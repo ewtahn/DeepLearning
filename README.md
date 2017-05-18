@@ -1,8 +1,7 @@
 
 [TOC]
-
-#DeepLearning学习步骤
-##环境搭建
+# DeepLearning学习步骤
+## 环境搭建
 利用Anaconda管理python的科学包。不过网速有限，暂时安装了miniconda，安装哪个版本无所谓，注意配置环境变量
 conda一个特点是可以管理多个独立的环境，这样python2，3可以放在不同的环境里
 ```
