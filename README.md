@@ -8,7 +8,7 @@
 $ conda create -n py36 python=3.6 ##创立环境
 $ source activate py36            ##激活环境
 $ conda list                      ##查看该环境下的包
-$ conda install numpy             ##安装numpy包
+$ conda install numpy pandas matplotlib##安装numpy包等
 $ conda env export > environment.yaml ##保存环境配置到文件(如果需要)
 $ conda env create -f environment.yaml##根据文件来创建环境(如果需要)
 $ conda install jupyter notebook      ##安装jupyter notebook
