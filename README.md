@@ -8,8 +8,10 @@
 $ conda create -n py36 python=3.6 ##创立环境
 $ source activate py36            ##激活环境
 $ conda list                      ##查看该环境下的包
-$ conda install numpy             ##安装numpy包
-$ source deactivate py36          ##离开环境
+$ conda install numpy             ##安装numpy包
+$ conda env export > environment.yaml ##保存环境配置到文件
+$ conda env create -f environment.yaml##如果需要根据文件来创建环境
+$ source deactivate py36          ##离开环境
 $ conda env list                  ##查看一共有几个环境
 $ conda env remove -n py36        ##删除某环境(如果需要)
 ```
