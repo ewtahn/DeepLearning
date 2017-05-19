@@ -11,7 +11,8 @@ sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
-
+bcoderSS购买套餐，下载配置文件，用ss客户端导入。  
+配置系统代理，127.0.0.1 1080端口
 
 
 
