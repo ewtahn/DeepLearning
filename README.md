@@ -2,6 +2,21 @@
 [TOC]
 # DeepLearning学习步骤
 ## 环境搭建
+### 网络环境
+用ss翻墙
+先安装ss
+通过PPA源安装，仅支持`Ubuntu` 14.04或更高版本。
+[shadowsocks](https://github.com/shadowsocks/shadowsocks-qt5/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97)
+```
+sudo add-apt-repository ppa:hzwhuang/ss-qt5
+sudo apt-get update
+sudo apt-get install shadowsocks-qt5
+```
+
+
+
+
+### 软件环境
 利用`Anaconda`管理`python`的科学包。不过网速有限，暂时安装了`miniconda`，安装哪个版本无所谓，注意配置环境变量。
 `conda`一个特点是可以管理多个独立的环境，这样python2，3可以放在不同的环境里。
 
