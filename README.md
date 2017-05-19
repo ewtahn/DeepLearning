@@ -3,13 +3,9 @@
 # DeepLearning学习步骤
 ## 环境搭建
 ### 网络环境
-用ss翻墙
-先安装ss。
+用ss翻墙，先安装ss。
 
-通过PPA源安装，仅支持`Ubuntu`14.04或更高版本。
-
-[shadowsocks](https://github.com/shadowsocks/shadowsocks-qt5/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97)
-
+通过PPA源安装,[shadowsocks](https://github.com/shadowsocks/shadowsocks-qt5/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97)
 ```
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
