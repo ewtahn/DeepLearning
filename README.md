@@ -33,6 +33,10 @@ $ conda env create -f environment.yaml##根据文件来创建环境(如果需要
 
 如果需要
 ```
+$ sudo gedit /home/wangzz/.bashrc ##设置环境变量    
+增加    
+export PATH="/home/wangzz/miniconda3/bin:$PATH"   
+
 $ source deactivate py36          ##离开环境
 $ conda env list                  ##查看一共有几个环境
 $ conda env remove -n py36        ##删除某环境(如果需要)
